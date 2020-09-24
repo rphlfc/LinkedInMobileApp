@@ -9,8 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color(#colorLiteral(red: 0.8928389549, green: 0.9259823561, blue: 0.9603002667, alpha: 1)).edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                SearchView()
+                
+                ScrollView(.vertical, showsIndicators: false) {
+                    NewPostView()
+                
+                    ForEach(0 ..< 5) { item in
+                        PostView()
+                    }
+                    .padding(.top)
+                    
+                    Spacer(minLength: 70)
+                }
+            }
+            
+            CustomTabView()
+        }
     }
 }
 
@@ -19,3 +37,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
