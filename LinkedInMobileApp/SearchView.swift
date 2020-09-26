@@ -12,11 +12,15 @@ struct SearchView: View {
     
     var body: some View {
         HStack(spacing: 15) {
-            Image("profile1")
-                .resizable()
-                .scaledToFill()
-                .frame(width: 50, height: 50)
-                .clipShape(Circle())
+            NavigationLink(
+                destination: ProfileView(),
+                label: {
+                    Image("profile1")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 50, height: 50)
+                        .clipShape(Circle())
+                })
             
             RoundedRectangle(cornerRadius: 10)
                 .frame(height: 40)

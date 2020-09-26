@@ -16,6 +16,11 @@
 		644D736F251D607100E75787 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 644D736E251D607100E75787 /* README.md */; };
 		6487BD9A251CEB6500D7D187 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487BD99251CEB6500D7D187 /* PostView.swift */; };
 		6487BD9E251CEBA300D7D187 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487BD9D251CEBA300D7D187 /* CustomTabView.swift */; };
+		64A18AED251D68D0008890B0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A18AEC251D68D0008890B0 /* ProfileView.swift */; };
+		64B82D91251EB9E9001269C6 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B82D8F251EB9E9001269C6 /* View.swift */; };
+		64B82D92251EB9E9001269C6 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B82D90251EB9E9001269C6 /* RoundedCorner.swift */; };
+		64B82D95251EBE28001269C6 /* ConnectionsAndViewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B82D94251EBE28001269C6 /* ConnectionsAndViewsView.swift */; };
+		64B82D98251EBE45001269C6 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B82D97251EBE45001269C6 /* CustomNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		644D736E251D607100E75787 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6487BD99251CEB6500D7D187 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		6487BD9D251CEBA300D7D187 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomTabView.swift; path = LinkedInMobileApp/CustomTabView.swift; sourceTree = SOURCE_ROOT; };
+		64A18AEC251D68D0008890B0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		64B82D8F251EB9E9001269C6 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		64B82D90251EB9E9001269C6 /* RoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		64B82D94251EBE28001269C6 /* ConnectionsAndViewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionsAndViewsView.swift; sourceTree = "<group>"; };
+		64B82D97251EBE45001269C6 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,11 @@
 				644D7368251D56C400E75787 /* SearchView.swift */,
 				6487BD9D251CEBA300D7D187 /* CustomTabView.swift */,
 				6487BD99251CEB6500D7D187 /* PostView.swift */,
+				64A18AEC251D68D0008890B0 /* ProfileView.swift */,
+				64B82D97251EBE45001269C6 /* CustomNavigationView.swift */,
+				64B82D94251EBE28001269C6 /* ConnectionsAndViewsView.swift */,
+				64B82D90251EB9E9001269C6 /* RoundedCorner.swift */,
+				64B82D8F251EB9E9001269C6 /* View.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,11 +177,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B82D91251EB9E9001269C6 /* View.swift in Sources */,
 				644D7369251D56C400E75787 /* SearchView.swift in Sources */,
 				643FB8B8251C1D750041C4C1 /* ContentView.swift in Sources */,
+				64B82D92251EB9E9001269C6 /* RoundedCorner.swift in Sources */,
 				6487BD9A251CEB6500D7D187 /* PostView.swift in Sources */,
+				64B82D95251EBE28001269C6 /* ConnectionsAndViewsView.swift in Sources */,
 				644D736C251D571100E75787 /* NewPostView.swift in Sources */,
 				643FB8B6251C1D750041C4C1 /* LinkedInMobileAppApp.swift in Sources */,
+				64B82D98251EBE45001269C6 /* CustomNavigationView.swift in Sources */,
+				64A18AED251D68D0008890B0 /* ProfileView.swift in Sources */,
 				6487BD9E251CEBA300D7D187 /* CustomTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

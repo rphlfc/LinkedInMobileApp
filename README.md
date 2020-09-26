@@ -4,10 +4,12 @@ Dessa vez encontrei um [redesign](https://dribbble.com/shots/14234422-Linkedin-M
 ## Screenshots
 <p align="center">
     <img src="https://user-images.githubusercontent.com/16376748/94209688-480a9980-fea3-11ea-95a3-972818e6a801.png" width="400">&nbsp;
+    <img src="https://user-images.githubusercontent.com/16376748/94325761-5d042d00-ff76-11ea-873c-0a2b7c65c9f8.png" width="400">&nbsp;
 </p>
 
 ## Vídeos
-[Vídeo no YouTube](https://youtu.be/GCxxvM_aK_w)
+- Parte 1 - [Vídeo no YouTube](https://youtu.be/GCxxvM_aK_w)
+- Parte 2 - [Vídeo no YouTube](https://youtu.be/T-G0TMQnM7I)
  
 ## Requisitos
 - iOS 14
